@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <title>موقع زهراء</title>
     <style>
-        body { background-color: #1a1a1a; color: white; text-align: center; padding-top: 100px; font-family: sans-serif; }
-        h1 { color: #ff4757; font-size: 40px; }
-        p { color: #ced6e0; font-size: 20px; }
+        body { 
+            background-color: #1a1a1a; 
+            color: white; 
+            text-align: center; 
+            padding-top: 50px; 
+            font-family: sans-serif; 
+        }
+        h1 { color: #ff4757; font-size: 35px; margin-bottom: 10px; }
+        p { color: #ced6e0; font-size: 18px; margin-bottom: 30px; }
+        
+        .video-container {
+            max-width: 90%;
+            width: 400px;
+            margin: 0 auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(255, 71, 87, 0.3);
+            background: #000;
+        }
+        video {
+            width: 100%;
+            display: block;
+        }
     </style>
 </head>
 <body>
+
     <h1>Hello, World!</h1>
     <p>مرحباً بكم في موقع زهراء الرسمي الدائم 🚀</p>
+
+    <div class="video-container">
+        <video autoplay loop controls playsinline>
+            <!-- هذا رابط فيديو تجريبي ومباشر ليتأكد تشغيله -->
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+    </div>
+
 </body>
 </html>
